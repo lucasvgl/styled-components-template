@@ -1,7 +1,9 @@
+import { CarroStyle } from "./style";
+
 export function Carro(props) {
     return (
       <div>
-        <h2>Meu carro</h2>
+        <CarroStyle>Meu carro</CarroStyle>
         <ul>
           <li>Cor: {props.cor}</li>
           <li>Ano: {props.ano}</li>
